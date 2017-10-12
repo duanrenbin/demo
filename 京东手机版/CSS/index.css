@@ -1,0 +1,66 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+}
+.jdm{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+/* 固定搜索 */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #c91523;
+    z-index: 10;
+}
+.sousuo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-left: 75px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.sousuo input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-size: 14px;
+    margin-top: 5px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.sousuo i{
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    width: 20px;
+    height: 30px;
+    background: url("../image/jd-sprites.png") no-repeat -60px -103px;
+    background-size: 200px 200px;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 56px;
+    height: 21px;
+    background: url("../image/jd-sprites.png") no-repeat 0 -110px;
+    background-size: 200px 200px;
+}
+.login{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+}
